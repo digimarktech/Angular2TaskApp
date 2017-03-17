@@ -5,7 +5,8 @@ import { Task } from './model/task';
 @Component({
     moduleId: module.id,
     selector: 'my-app',
-    templateUrl: 'app.component.html'
+    templateUrl: 'app.component.html',
+    styleUrls: [ 'app.component.css']
 })
 export class AppComponent { 
 
@@ -20,4 +21,5 @@ export class AppComponent {
             false
         )
     ]
+    private currentTask = new Task(null, false);
 }
