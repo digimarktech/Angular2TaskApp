@@ -9,6 +9,12 @@
     border: none;
 }
 
+.card.completed, .card.completed .card-footer {
+
+    background-color: #EEE;
+    color: #CCC;
+}
+
 .card-footer {
 
     text-align: right;
@@ -18,3 +24,4 @@ i {
     color: #CC0000;
     padding-right: .5rem;
 }
+
